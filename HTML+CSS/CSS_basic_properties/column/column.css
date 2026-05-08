@@ -1,0 +1,27 @@
+#main-container{
+    columns: 5;
+    /* height: 300px; */
+    column-gap: 20px;
+    /* column-fill: auto; */
+    text-align: justify;
+    column-rule: 1px dotted black;
+}
+
+@media (max-width:65em){
+    #main-container{
+    columns: 3;
+    column-gap: 10px; 
+}
+}
+@media (max-width:55em){
+    #main-container{
+    columns: 2;
+    column-gap: 10px; 
+}
+}
+@media (max-width:42em){
+    #main-container{
+    columns: 1;
+    column-gap: 10px; 
+}
+}

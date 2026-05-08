@@ -1,0 +1,52 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+hr{
+    margin: 20px;
+}
+
+
+.parent-div{
+    background-color: rgb(70, 131, 184);
+    border: 2px solid red;
+}
+
+
+
+.child-div{
+    margin: 5px;
+    padding: 5px;
+    background-color: rebeccapurple;
+    height: 100px; 
+    width: 100px;
+    color: red;
+    border: 2px solid greenyellow
+}
+
+
+.inline{
+    display: inline;
+    /* height, width will not work for inline element */
+}
+
+.block{
+    display: block;
+    /* height, width can be assiged */
+}
+.inline-block{
+    display: inline-block;
+    /* height, width can be assiged */
+}
+.flex{
+    display: flex;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+
+

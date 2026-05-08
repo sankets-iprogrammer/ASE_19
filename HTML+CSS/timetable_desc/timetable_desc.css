@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    padding: 0%;
+    margin: 0%; 
+}
+
+p{
+    display:inline-table;
+    font-size: 100%;
+}
+
+.header{
+    justify-self: center;
+    /* margin-top: 6%;
+    margin-bottom: 2%; */
+}
+table{
+    margin: auto;
+    border: 1px solid black;
+    height: 80%;
+    width: 90%;
+}
+
+th{
+    /* padding: auto;    */
+    border: 1px solid black;
+}
+td{
+    /* padding: auto;   */
+    border: 1px solid black;
+}
+.zero{
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,0 +1,30 @@
+.main-div{
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    margin-top: 2vmin;
+    text-align: justify;
+}
+.divider{
+    border-color: red;
+}
+h1{
+    text-align: center;
+}
+.left{
+    width: 20%;
+    float:left;
+    margin: 2%;
+    border: 5px solid black;
+    min-width: 200px;
+}
+.right{
+    width: 20%;
+    float:right;
+    margin: 2%;
+    border: 5px solid black;
+    min-width: 200px;
+}
+
+.inline{
+    display: inline;
+}

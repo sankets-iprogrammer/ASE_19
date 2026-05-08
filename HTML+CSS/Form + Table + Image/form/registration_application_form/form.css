@@ -1,0 +1,35 @@
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.header{
+    background-color: rgb(92, 166, 200);
+    color: white;
+}
+td,th{
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    
+}
+
+
+.input-div{
+    display: flex;
+}
+
+.submit-div{
+    justify-content: center;
+}
+input,select{
+    margin: 2px 5px;
+    max-width: 40%;
+}
+p{
+    overflow: hidden;
+    display:inline-block;
+    font-size: 100%;
+}

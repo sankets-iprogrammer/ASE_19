@@ -1,0 +1,13 @@
+table ,td,th {
+    border: 1px solid black;
+}
+table{
+    min-width :70%;
+    margin: auto;
+}
+td,th{
+    padding: 5px;
+}
+.text-input{
+    max-width: 200px;
+}
